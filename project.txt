@@ -1,0 +1,12 @@
+Social Site
+
+MVP
+    LOGIN AND REG with validation
+    Create Posts with the option to update and delete them (with validation)
+    Follow other user profiles
+    Feed is the main page that displays users posts
+    Profile page to view your followers and your posts as well as logout
+Extra features
+    Search for users by name
+    Video/image upload for post
+    Likes/comments

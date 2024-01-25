@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-image: url('./assets/pokebg.png');
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  height: 90vh;
+}
+
+#poke-form{
+  background: linear-gradient(125deg, dodgerblue, royalblue);
+  width: 50%;
+  margin: 3% auto;
+  border-radius: 10px;
+  padding: 2%;
+  border: 3px double gold;
+}
+
+h1{
+  color: gold;
+}
+
+#poke-form input, #poke-form label{
+  width: 33%;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input[type=submit]{
+  cursor: pointer;
+  background: linear-gradient(60deg, crimson, salmon);
+  color: white;
+}
+
+input[type=submit]:hover{
+  opacity: 0.8;
+}
+
+#cards {
+  width: 20%;
+  border: 2px ridge blue;
+  border-radius: 10px;
+  background: linear-gradient(80deg, whitesmoke, silver);
+}
+
+#cards h4 {
+  background-color: gold;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  text-shadow: 1px 1px 3px gray;
+}
+
+#logo {
+  width: 70%;
+  margin: 5px 0px 0px 0px;
+}
+
+#pokemon {
+  width: 80%;
+  margin: -25px 0px;
+}
+
+.poke-party {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#cards p {
+  text-shadow: 1px 1px 3px gray;
+}
